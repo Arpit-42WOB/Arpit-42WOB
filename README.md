@@ -1,4 +1,4 @@
-<h1 align="center"> Hi, I’m vanichx 🙋🏻‍♂️ </h1>
+<h1 align="center"> Hi, I’m Arpit 🙋🏻‍♂️ </h1>
 
 ## ▪️ Now I'm student at [42 Wolfsburg](https://42wolfsburg.de) 👨🏻‍💻📚 
 
@@ -8,7 +8,7 @@
 ## <a  target="ft_printf">*Born2BeRoot*    </a></a>[![ipetruni's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clj2opons005908kudaf7keqs/project/3116303)](https://github.com/JaeSeoKim/badge42)
 ## <a href='https://github.com/vanichx/ft_printf' target="ft_printf">*ft_printf*    </a></a>[![ipetruni's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clj2opons005908kudaf7keqs/project/3105814)](https://github.com/JaeSeoKim/badge42)
 ## <a href='https://github.com/vanichx/GetNextLine' target="GetNextLine">*GetNextLine*    </a></a>[![ipetruni's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clj2opons005908kudaf7keqs/project/3105814)](https://github.com/JaeSeoKim/badge42)
-## <a href='https://github.com/vanichx/Libft' target="Libft">*Libft*    </a></a>[![ipetruni's 42 Libft Score](https://badge42.vercel.app/api/v2/clj2opons005908kudaf7keqs/project/3092959)](https://github.com/JaeSeoKim/badge42)
+## <a href='https://github.com/vanichx/Libft' target="Libft">*Libft*    </a></a>[![amehrotr's 42 Libft Score](https://badge42.vercel.app/api/v2/clj2uwdhc004908lhti0soiio/project/3092589)](https://github.com/JaeSeoKim/badge42)
 
 ## ▪️ Github stats 📊
 
