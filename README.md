@@ -3,7 +3,7 @@
 ## ▪️ Now I'm student at [42 Wolfsburg](https://42wolfsburg.de) 👨🏻‍💻📚 
 
 ## ▪️ My Current progress at school
-[![amehrotr's 42 stats](https://badge42.vercel.app/api/v2/clj2uwdhc004908lhti0soiio/stats?cursusId=21&coalitionId=355)](https://github.com/JaeSeoKim/badge42)
+[![amehrotr's 42 stats](https://badge42.vercel.app/api/v2/clj2uwdhc004908lhti0soiio/stats?cursusId=21&coalitionId=355)](https://profile.intra.42.fr/users/amehrotr)
 
 ## <a  target="ft_printf">*Born2BeRoot*    </a></a>[![amehrotr's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clj2uwdhc004908lhti0soiio/project/3114607)](https://github.com/JaeSeoKim/badge42)
 ## <a href='https://github.com/vanichx/ft_printf' target="ft_printf">*ft_printf*    </a></a>[![amehrotr's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clj2uwdhc004908lhti0soiio/project/3109853)](https://github.com/JaeSeoKim/badge42)
