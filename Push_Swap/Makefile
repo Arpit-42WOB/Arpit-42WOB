@@ -29,9 +29,9 @@ B_OBJ := ${BONUS:%.c=%.o}
 
 CC := cc
 
-CFLAGS := -Wall -Wextra -Werror -fsanitize=address
+CFLAGS := -Wall -Wextra -Werror -g
 
-INC := Push_Swap.h
+INC := push_swap.h
 
 all: ${NAME}
 

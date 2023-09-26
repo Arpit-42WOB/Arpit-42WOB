@@ -18,6 +18,8 @@ void	rev_rotate(t_stack **stack)
 	t_stack	*tail;
 	t_stack	*before_tail;
 
+	if (get_stack_size(*stack) < 1)
+		return ;
 	tail = get_stack_bottom(*stack);
 	before_tail = get_stack_before_bottom(*stack);
 	tmp = *stack;
