@@ -2,12 +2,11 @@
 
 ## ▪️ Now I'm student at [42 Wolfsburg](https://42wolfsburg.de) 👨🏻‍💻📚 
 
-## ▪️ My Current progress at school
-[[My 42 Stats](https://profile.intra.42.fr/users/amehrotr)
+## ▪️ My Current progress at school(https://profile.intra.42.fr/users/amehrotr)
 
-## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Ft_Printf' target="ft_printf">*ft_printf*
-## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Get_Next_Line' target="GetNextLine">*GetNextLine*
 ## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Libft' target="Libft">*Libft*
+## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Get_Next_Line' target="GetNextLine">*GetNextLine*
+## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Ft_Printf' target="ft_printf">*ft_printf*
 
 ## ▪️ Github stats 📊
 
