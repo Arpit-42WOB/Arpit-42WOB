@@ -6,7 +6,7 @@
 /*   By: amehrotr <amehrotr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 21:23:06 by amehrotr          #+#    #+#             */
-/*   Updated: 2023/09/26 14:57:48 by amehrotr         ###   ########.fr       */
+/*   Updated: 2023/07/07 13:43:33 by amehrotr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ void	rotate(t_stack **stack)
 	t_stack	*tmp;
 	t_stack	*tail;
 
-	if (get_stack_size(*stack) < 1)
-		return ;
 	tmp = *stack;
 	*stack = (*stack)-> next;
 	tail = get_stack_bottom(*stack);
@@ -35,16 +33,14 @@ void	do_ra(t_stack **stack_a)
 
 void	do_rb(t_stack **stack_b)
 {
-	if (get_stack_size(*stack_b) > 1)
-		rotate(stack_b);
+	rotate(stack_b);
 	ft_putstr("rb\n");
 }
 
 void	do_rr(t_stack **a, t_stack **b, int i)
 {
 	rotate(a);
-	if (get_stack_size(*b) > 1)
-		rotate(b);
+	rotate(b);
 	if (i == 1)
 		ft_putstr("rr\n");
 }

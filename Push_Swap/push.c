@@ -39,11 +39,13 @@ void	do_pb(t_stack **stack_a, t_stack **stack_b)
 t_stack	*fill_stack_values(int ac, char **av, int i)
 {
 	t_stack		*stack_a;
+	long int	nb;
 	int			wc;
 	char		**str;
 	int			f;
 
 	stack_a = NULL;
+	nb = 0;
 	f = 0;
 	while (i < ac)
 	{

@@ -6,7 +6,7 @@
 #    By: amehrotr <amehrotr@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/06 12:54:37 by amehrotr          #+#    #+#              #
-#    Updated: 2023/09/26 14:45:10 by amehrotr         ###   ########.fr        #
+#    Updated: 2023/07/06 20:16:20 by amehrotr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,9 +29,9 @@ B_OBJ := ${BONUS:%.c=%.o}
 
 CC := cc
 
-CFLAGS := -Wall -Wextra -Werror -g
+CFLAGS := -Wall -Wextra -Werror
 
-INC := push_swap.h
+INC := Push_Swap.h
 
 all: ${NAME}
 
