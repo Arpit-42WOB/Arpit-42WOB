@@ -5,8 +5,7 @@
 ## ▪️ My Current progress at school
 [![amehrotr's 42 stats](https://badge42.vercel.app/api/v2/clj2uwdhc004908lhti0soiio/stats?cursusId=21&coalitionId=355)](https://profile.intra.42.fr/users/amehrotr)
 
-## <a  target="ft_printf">*Born2BeRoot*    </a></a>[![amehrotr's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clj2uwdhc004908lhti0soiio/project/3114607)](https://github.com/JaeSeoKim/badge42)
-## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Ft_Printf' target="ft_printf">*ft_printf*    </a></a>[![amehrotr's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clj2uwdhc004908lhti0soiio/project/3109853)](https://github.com/JaeSeoKim/badge42)
+## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Ft_Printf' target="ft_printf">*ft_printf*
 ## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Get_Next_Line' target="GetNextLine">*GetNextLine*    </a></a>[![amehrotr's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clj2uwdhc004908lhti0soiio/project/3107236)](https://github.com/JaeSeoKim/badge42)
 ## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Libft' target="Libft">*Libft*    </a></a>[![amehrotr's 42 Libft Score](https://badge42.vercel.app/api/v2/clj2uwdhc004908lhti0soiio/project/3092589)](https://github.com/JaeSeoKim/badge42)
 
