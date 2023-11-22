@@ -2,7 +2,7 @@
 
 ## ▪️ Now I'm student at [42 Wolfsburg](https://42wolfsburg.de) 👨🏻‍💻📚 
 
-## ▪️ My Current progress at school(https://profile.intra.42.fr/users/amehrotr)
+## ▪️ <a href='https://profile.intra.42.fr/users/amehrotr' target="My Current progress at school">*My Current progress at school*
 
 ## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Libft' target="Libft">*Libft*
 ## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Get_Next_Line' target="GetNextLine">*GetNextLine*
