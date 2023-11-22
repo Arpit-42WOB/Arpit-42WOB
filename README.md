@@ -4,9 +4,15 @@
 
 ## ▪️ <a href='https://profile.intra.42.fr/users/amehrotr' target="My Current progress at school">*My Current progress at school*
 
-## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Libft' target="Libft">*Libft*
-## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Get_Next_Line' target="GetNextLine">*GetNextLine*
-## <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Ft_Printf' target="ft_printf">*ft_printf*
+## ▪️ <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Libft' target="Libft">*Libft*
+## ▪️ <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Get_Next_Line' target="GetNextLine">*GetNextLine*
+## ▪️ <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Ft_Printf' target="ft_printf">*ft_printf*
+## ▪️ <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Push_Swap' target="Push_Swap">*Push_Swap*
+## ▪️ <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/So_Long' target="So_Long">*So_Long*
+## ▪️ <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Pipex' target="Pipex">*Pipex*
+## ▪️ <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Minishell' target="Minishell">*Minishell*
+## ▪️ <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Philosophers' target="Philosophers">*Philosophers*
+## ▪️ <a href='https://github.com/Arpit-42WOB/Arpit-42WOB/tree/main/Cub3D' target="Cub3D">*Cub3D*
 
 ## ▪️ Github stats 📊
 
