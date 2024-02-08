@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Phonebook.cpp                                      :+:      :+:    :+:   */
+/*   PhoneBook.cpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amehrotr <amehrotr@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/18 16:22:20 by amehrotr          #+#    #+#             */
-/*   Updated: 2024/01/24 13:51:04 by amehrotr         ###   ########.fr       */
+/*   Updated: 2024/02/07 18:20:07 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,28 +40,25 @@ void PhoneBook::search()
 		std::cout << "\nNo Contact to Display\n" << std::endl;
 		return;
 	}
-	while (true)
-	{
+	
 		this->search_display(10);
 		std::cout << "\nPlease enter index of the contact: ";
 		if (!std::getline(std::cin, input))
 		{
 			std::cout << "Error on getline" << std::endl;
-			break;
+			return;
 		}
-		if (input == "EXIT")
-			break;
 		if (input.empty() || !is_number(input))
 		{
-			std::cout << std::endl << input << "invalid input, Try again" << std::endl;
-			continue;
+			std::cout << std::endl << input << " invalid input, Try again" << std::endl;
+			return;
 		}
 		num = std::atoi(input.c_str());
 		if (num < 0 || num >= this->_size || num > 7)
 			std::cout << "\nError: Index out of range, Try again\n" << std::endl;
 		else
 			this->get_contact(num).get_full_info();
-	}
+	return;
 }
 
 void PhoneBook::search_display(int spc)

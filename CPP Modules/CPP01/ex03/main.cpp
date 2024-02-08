@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amehrotr <amehrotr@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/26 11:05:57 by amehrotr          #+#    #+#             */
-/*   Updated: 2024/01/26 14:22:37 by amehrotr         ###   ########.fr       */
+/*   Updated: 2024/02/07 18:36:21 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,13 @@ jim.attack();
 club.setType("some other type of club");
 jim.attack();
 }
+
+Weapon club = Weapon("crude spiked club1");
+HumanB jim("Jimy");
+jim.attack();
+jim.setWeapon(NULL);
+jim.attack();
+club.setType("some other type of club1");
+jim.attack();
 return 0;
 }

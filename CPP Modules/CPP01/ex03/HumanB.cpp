@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   HumanB.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amehrotr <amehrotr@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/26 11:05:53 by amehrotr          #+#    #+#             */
-/*   Updated: 2024/01/26 13:56:38 by amehrotr         ###   ########.fr       */
+/*   Updated: 2024/02/07 18:30:47 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,4 +33,8 @@ void HumanB::attack()
 void HumanB::setWeapon(Weapon &weapon)
 {
 	this->weapon = &weapon;
+}
+void HumanB::setWeapon(Weapon *weapon)
+{
+	this->weapon = weapon;
 }

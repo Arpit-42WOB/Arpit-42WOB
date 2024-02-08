@@ -3,26 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: amehrotr <amehrotr@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/29 09:25:21 by amehrotr          #+#    #+#             */
-/*   Updated: 2024/02/07 18:43:23 by codespace        ###   ########.fr       */
+/*   Created: 2024/02/01 14:48:13 by amehrotr          #+#    #+#             */
+/*   Updated: 2024/02/01 14:48:30 by amehrotr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Harl.hpp"
+#include "Fixed.hpp"
 
-int main()
-{
-	Harl	command;
-	std::string input;
-
-	do
-	{
-		std::cout << "Enter a level: ";
-		std::cin >> input;
-		command.complain(input);
-	} while (input != "EXIT");
+int main( void ) {
+	Fixed a;
+	Fixed const b( Fixed( 5.05f ) * Fixed( 2 ) );
 	
-	return (0);
+	std::cout << a << std::endl;
+	std::cout << ++a << std::endl;
+	std::cout << a << std::endl;
+	
+	std::cout << a++ << std::endl;
+	std::cout << a << std::endl;
+	
+	std::cout << b << std::endl;
+	
+	std::cout << Fixed::max( a, b ) << std::endl;
+	
+	return 0;
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   zombieHorde.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amehrotr <amehrotr@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/25 20:21:12 by amehrotr          #+#    #+#             */
-/*   Updated: 2024/01/25 20:31:43 by amehrotr         ###   ########.fr       */
+/*   Updated: 2024/02/07 18:27:52 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
