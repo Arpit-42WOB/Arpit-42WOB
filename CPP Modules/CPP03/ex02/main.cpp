@@ -1,5 +1,5 @@
-#include "ClapTrap.hpp"
 #include "ScavTrap.hpp"
+#include "FragTrap.hpp"
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
 	std::cout << "Attack damage: " << Foo.getAttackDamage() << std::endl;
 	std::cout << std::endl;
 
-	ClapTrap	Boo( "Boo" );
+	FragTrap	Boo( "Boo" );
 	Boo.setAttackDamage( 42 );
 	std::cout << Boo.getName() << "'s stats" << std::endl;
 	std::cout << "Hitpoints: " << Boo.getHitPoints() << std::endl;
@@ -23,11 +23,12 @@ int main()
 	std::cout << std::endl;
 
 	Boo.attack( Foo.getName() );
-	Boo.beRepaired( 2 );
+	Foo.takeDamage( Boo.getAttackDamage() );
 	Boo.attack( Foo.getName() );
 	Foo.takeDamage( Boo.getAttackDamage() );
-	Foo.beRepaired( 3 );
-	Foo.guardGate();
+	Boo.attack( Foo.getName() );
+	Foo.takeDamage( Boo.getAttackDamage() );
+	Boo.highFivesGuys();
 	std::cout << std::endl;
 
 	return 0;
