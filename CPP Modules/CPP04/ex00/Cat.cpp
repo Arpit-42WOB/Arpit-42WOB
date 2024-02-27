@@ -12,12 +12,12 @@ Cat::Cat(const Cat &cat) : Animal(cat)
 
 Cat::Cat(std::string type) : Animal(type)
 {
-    std::cout << "Cat " << type << " constructor called" << std::endl;
+    std::cout << "Cat " << type << " is Constructed" << std::endl;
 }
 
 Cat::~Cat()
 {
-    std::cout << "Cat " << this->_type << "destructor called" << std::endl;
+    std::cout << "Cat " << this->_type << "is Destructed" << std::endl;
 }
 
 Cat &Cat::operator=(const Cat &cat)

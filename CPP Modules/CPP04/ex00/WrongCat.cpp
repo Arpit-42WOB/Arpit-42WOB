@@ -5,7 +5,7 @@ WrongCat::WrongCat() : WrongAnimal("WrongCat") {
 }
 
 WrongCat::WrongCat(std::string type) : WrongAnimal(type) {
-    std::cout << "WrongCat " << type << " constructor called" << std::endl;
+    std::cout << "WrongCat " << type << " is Constructed" << std::endl;
 }
 
 WrongCat::WrongCat(WrongCat const &other) : WrongAnimal(other) {
@@ -13,7 +13,7 @@ WrongCat::WrongCat(WrongCat const &other) : WrongAnimal(other) {
 }
 
 WrongCat::~WrongCat() {
-    std::cout << "WrongCat destructor called" << std::endl;
+    std::cout << "WrongCat "<< this->_type << " destructed" << std::endl;
 }
 
 WrongCat &WrongCat::operator=(WrongCat const &other) {

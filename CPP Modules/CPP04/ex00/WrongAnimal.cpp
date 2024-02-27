@@ -1,11 +1,11 @@
 #include "WrongAnimal.hpp"
 
 WrongAnimal::WrongAnimal() : _type("WrongAnimal") {
-    std::cout << "WrongAnimal constructor called" << std::endl;
+    std::cout << "Default WrongAnimal Constructed" << std::endl;
 }
 
 WrongAnimal::WrongAnimal(std::string type) : _type(type) {
-    std::cout << "WrongAnimal "<< type <<" constructor called" << std::endl;
+    std::cout << "WrongAnimal "<< type <<" is Constructed" << std::endl;
 }
 
 WrongAnimal::WrongAnimal(WrongAnimal const &other) {

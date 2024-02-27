@@ -5,15 +5,15 @@ Dog::Dog() : Animal("Dog") {
 }
 
 Dog::Dog(std::string type) : Animal(type) {
-    std::cout << "Dog " << type << " constructor called" << std::endl;
+    std::cout << "Dog " << type << " is Constructed" << std::endl;
 }
 
 Dog::Dog(Dog const &other) : Animal(other) {
-    std::cout << "Dog " << other._type << " constructor called" << std::endl;
+    std::cout << "Dog " << other._type << " Constructor Copied" << std::endl;
 }
 
 Dog::~Dog() {
-    std::cout << "Dog " << this->_type << " destructor called" << std::endl;
+    std::cout << "Dog " << this->_type << " is Destructed" << std::endl;
 }
 
 Dog &Dog::operator=(Dog const &other) {

@@ -5,59 +5,59 @@
 #                                                     +:+ +:+         +:+      #
 #    By: amehrotr <amehrotr@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/07/06 12:54:37 by amehrotr          #+#    #+#              #
-#    Updated: 2023/07/06 20:16:20 by amehrotr         ###   ########.fr        #
+#    Created: 2023/07/20 16:00:03 by amehrotr          #+#    #+#              #
+#    Updated: 2023/08/09 19:42:45 by amehrotr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME := push_swap
-BONUS_NAME := checker
+NAME = so_long
 
-MANDATORY := push_swap.c \
+NAME_BONUS = so_long_bonus
 
-BONUS := push_swap_bonus.c \
+SRC = so_long.c Mandatory_Utils/read_map.c Mandatory_Utils/game.c Mandatory_Utils/check.c Mandatory_Utils/error.c \
+			Mandatory_Utils/move.c Mandatory_Utils/test_path.c Mandatory_Utils/exit.c \
 
-SRC := check_input.c get_next_line.c push_swap_bonus_utils.c push_swap_utils.c  \
-		push.c rev_rotate.c rotate.c sort_utils.c split_utils.c  \
-		stack_utils.c stack.c swap.c tiny_sort.c utils.c \
+OBJ = ${SRC:%.c=%.o}
 
-OBJ := ${SRC:%.c=%.o}
+BONUS_SRC = so_long_bonus.c Bonus_Utils/read_map.c Bonus_Utils/game.c Bonus_Utils/check.c Bonus_Utils/error.c \
+			Bonus_Utils/move.c Bonus_Utils/test_path.c Bonus_Utils/exit.c Bonus_Utils/frame.c \
 
-M_OBJ := ${MANDATORY:%.c=%.o}
+BONUS_OBJ = ${BONUS_SRC:%.c=%.o}
 
-B_OBJ := ${BONUS:%.c=%.o}
+LIBFTFOLDER = include/Libft
 
-CC := cc
+LIBFT = $(LIBFTFOLDER)/libft.a
 
-CFLAGS := -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -g -I include
 
-INC := Push_Swap.h
+all : library $(NAME)
 
-all: ${NAME}
+bonus : library $(NAME_BONUS)
 
-bonus: ${BONUS_NAME}
+norm :
+		norminette *.c ./include/Libft/*.c ./include/*.h ./Bonus_Utils/*.c ./Mandatory_Utils/*.c
 
-both: ${NAME} ${BONUS_NAME}
+library :
+		make -C $(LIBFTFOLDER)
 
-${NAME} : ${M_OBJ} ${OBJ} ${INC}
-		@${CC} ${CFLAGS} ${M_OBJ} ${OBJ} -o ${NAME}
+$(NAME) : $(LIBFT) $(OBJ)
+		gcc $(FLAGS) $(SRC) $(LIBFT) -o $(NAME) -L include/mlx -lmlx -framework OpenGL -framework Appkit
 
-${BONUS_NAME} : ${B_OBJ} ${OBJ} ${INC}
-				@${CC} ${CFLAGS} ${B_OBJ} ${OBJ} -o ${BONUS_NAME}
+$(NAME_BONUS) : $(LIBFT) $(BONUS_OBJ)
+		gcc $(FLAGS) $(BONUS_SRC) $(LIBFT) -o $(NAME_BONUS) -L include/mlx -lmlx -framework OpenGL -framework Appkit
 
-%.o:%.c
-		@${CC} ${CFLAGS} -c $< -o $@
-		
-clean:
-		@rm -f ${M_OBJ} ${B_OBJ} ${OBJ}
+%.o : %.c
+		@${CC} ${FLAGS} -c $< -o $@
 
-fclean: clean
-		@rm -f ${NAME} ${BONUS_NAME}
+clean :
+		@rm -f $(OBJ) $(BONUS_OBJ)
+		make clean -C $(LIBFTFOLDER)
 
-re: fclean all
+fclean : clean
+		@rm -f $(NAME) $(NAME_BONUS) $(LIBFT)
 
-rebonus: fclean bonus
+re : fclean all
 
-reboth: fclean all bonus
+rebonus : fclean bonus
 
-.PHONY: all bonus both clean fclean re rebonus reboth
+.PHONY : all bonus norm library clean fclean re
