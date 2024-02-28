@@ -19,7 +19,7 @@ Cat::Cat(std::string type) : AAnimal(type), _brain(new Brain())
 Cat::~Cat()
 {
     delete this->_brain;
-    std::cout << "Cat " << this->_type << "is Destructed" << std::endl;
+    std::cout << "Cat " << this->_type << " is Destructed" << std::endl;
 }
 
 Cat &Cat::operator=(const Cat &cat)

@@ -1,4 +1,4 @@
-NAME = WorldOnFire
+NAME = AbstractClass
 
 SRC = AAnimal.cpp Cat.cpp Dog.cpp Brain.cpp main.cpp
 
